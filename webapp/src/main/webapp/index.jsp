@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="header">
-  <h1>Hello Babs, Mariam, Valerie, Samuel, Emmanuel and Group 3 geeks !!!</h1>
+  <h1>Hello Babs, Mariam, Valerie, Samuel, Emmanuel, Femi,  and Group 3 geeks !!!</h1>
   <p>Sample Java Application</p>
 </div>
 </body>
