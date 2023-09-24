@@ -43,6 +43,15 @@
       <artifactId>mockito-core</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit-dep</artifactId>
+      <version>4.10</version> <!-- Specify the version here -->
+      <scope>test</scope>
+    </dependency>
+
+  <!-- Specify versions for other missing dependencies similarly -->
   </dependencies>
 
 </project>

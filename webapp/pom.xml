@@ -39,6 +39,20 @@
       <artifactId>jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version> <!-- Specify the version here -->
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.2</version> <!-- Specify the version here -->
+    </dependency>
+
+  <!-- Specify versions for other missing dependencies similarly -->
   </dependencies>
 
 </project>
