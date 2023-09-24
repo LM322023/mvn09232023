@@ -21,7 +21,7 @@
 <body>
 <div class="header">
   <h1>Sample Java Webapp</h1>
-  <p>Great job Babs, Valerie, Mariam, Joyce, Femi, Samuel, Emmanuel, and group 3 folks</p>
+  <p>Great job to Babs, Valerie, Mariam, Joyce, Femi, Samuel, Emmanuel, Gilles and group 3 folks</p>
 </div>
 </body>
 </html>
