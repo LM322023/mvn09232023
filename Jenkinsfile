@@ -22,8 +22,8 @@ pipeline {
     stage('SonarQube Scan') {
       steps {
         sh """mvn sonar:sonar \
-  -Dsonar.host.url=http://34.214.161.255:9000 \
-  -Dsonar.login=e2eec2379c8ffd95ba62831cb56ed2851e4ecf4e"""
+  -Dsonar.host.url=http:///54.213.19.71:9000 \
+  -Dsonar.login=a06fc8897de690583a2baf3ec21ea36cce4e6e24"""
       }
     }
     stage('Upload to Artifactory') {
@@ -33,20 +33,6 @@ pipeline {
 
     }
     stage('Deploy to DEV') {
-      environment {
-        HOSTS = "dev"
-      }
-      steps {
-        sh "ansible-playbook ${WORKSPACE}/deploy.yaml --extra-vars \"hosts=$HOSTS workspace_path=$WORKSPACE\""
-      }
-
-    }
-    stage('Approval for stage') {
-      steps {
-        input('Do you want to proceed?')
-      }
-    }
-    stage('Deploy to Stage') {
       environment {
         HOSTS = "dev"
       }
@@ -69,5 +55,5 @@ pipeline {
       }
     }
   }
-}
 
+}

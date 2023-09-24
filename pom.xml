@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://35.92.47.191:8081/repository/maven-snapshots/</url>
+            <url>http://54.187.120.209:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://35.92.47.191:8081/repository/maven-releases/</url>
+            <url>http://54.187.120.209:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 
@@ -41,10 +41,9 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version> <!-- Use a more recent version -->
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.6</source>
+          <target>1.6</target>
         </configuration>
       </plugin>
 
